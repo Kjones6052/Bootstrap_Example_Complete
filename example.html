@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kyle Jones - Web Resume</title>
+        <!-- "<link rel="stylesheet" href="css/bootstrap.css">
+        <script src="js/bootstrap.js"></script>" is an alternate way to incorporate Bootstrap -->
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="container mt-4 mb-5 bg-light p-3 rounded">
+        <div class="row align-items-center">
+            <div class="col-md-4 mb-3 mb-md-0">
+                <img src="profile.img" alt="Professional profile photo of Kyle Jones">
+            </div>
+            <!-- -->
+            <div class="col-md-8">
+                <h1 class="display-4">Kyle Jones</h1>
+                <p class="lead">Welcome to my professional web resume.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Kyle Jones</a>
+            <button class="navbar-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggle-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work-experience">Work Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recent-projects">Recent Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#podcast-features">Podcast Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project-highlights">Project Highlights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tutorials-talks">Tutorials & Talks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-me">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Skills Section -->
+     <section class="container my-4" id="skills">
+        <h2 class="h4">Skills</h2>
+        <div class="row">
+            <div class="col">
+                <div class="mb-3">
+                    <label for="html-css" class="form-label">HTML/CSS</label>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Expert</div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="javascript" class="form-label">JavaScript</label>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">Intermediate</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- Education & Work Experience Accordions -->
+    <section class="container my-4">
+        <div class="accordion" id="accordionExample">
+
+            <!-- Education Section -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingEducation">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEducation" aria-expanded="false" aria-controls="collapse">
+                        Education
+                    </button>
+                </h2>
+                <div id="collapseEducation" class="accordion-collapse collapse" aria-labelledby="headingEducation" data-bs-parent="accordionExample">
+                    <div class="accordion-body">
+                        <article id="education" class="container my-4 bg-info text-white p-3 rounded">
+                            <h2 class="h4">Education</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="https://universitywebsite.com"><strong>University Name</strong></a>, Bachelor's Degree, Graduation Year</li>
+
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Work Experience Section -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingWorkExperience">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWorkExperience" aria-expanded="false" aria-controls="collapse">
+                        Work Experience
+                    </button>
+                </h2>
+                <div id="collapseWorkExperience" class="accordion-collapse collapse" aria-labelledby="headingWorkExperience" data-bs-parent="accordionExample">
+                    <div class="accordion-body">
+                        <article id="work-experience" class="container my-4 bg-info text-white p-3 rounded">
+                            <h2 class="h4">Work Experience</h2>
+                            <p><strong>Job Title</strong>, Company Name <em>{Year-Year}</em></p>
+
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+     <!-- Testimonials Section with Bootstrap Cards -->
+    <section id="testimonials" class="container my-4">
+        <h2 class="h4">Testimonials</h2>
+        <div class="row row-cols-1 ro-cols-md-3 g-4">
+            <!-- Testimonial 1 -->
+            <div class="col-md-3">
+                <div class="card bg-success text-white">
+                    <div class="card-body">
+                        <p class="card-text">
+                            "Your creativity and dedication have truly impressed us. Thank you for consistently going above and beyond to deliver exceptional results!"
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-white">John Doe, CEO at XYZ Corporation</small>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial 2 -->
+            <div class="col-md-3">
+                <div class="card bg-success text-white">
+                    <div class="card-body">
+                        <p class="card-text">
+                            "Working with Kyle Jones has been a pleasure. Their professionalism and attention to detail have made a significant impact on our project's success."
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-white">Jane Smith, Marketing Director at ABC Inc.</small>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial 3 -->
+            <div class="col-md-3">
+                <div class="card bg-success text-white">
+                    <div class="card-body">
+                        <p class="card-text">
+                            "Kyle Jones' expertise and collaborative spirit have been invaluable to our team. We look forward to continuing our partnership and achieving even greater success together."
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-white">Michael Johnson, CTO at Tech Innovations</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Projects Section -->
+    <section class="container my-4 bg-light p-3 border rounded" id="recent-projects">
+        <h2 class="h4">Recent Projects</h2>
+        <p>Project Name: Website Redesign</p>
+        <pre><code>&lt;!-- HTML structure of the redesigned homepage --&gt;
+            &lt;div class="container"&gt;
+            &lt;header&gt;...&lt;/header&gt;
+            &lt;nav&gt;...&lt;/nav&gt;
+            &lt;main&gt;...&lt;/main&gt;
+            &lt;footer&gt;...&lt;/footer&gt;
+            &lt;/div&gt;
+        </code></pre>
+    </section>
+
+    <!-- Podcast Features Section -->
+    <section class="container my-4" id="podcast-features">
+        <h2>Podcast Features</h2>
+        <audio controls>
+            <source src="podcast.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <!-- Project Highlights Section -->
+    <section class="container my-4" id="project-highlights">
+        <h2>Project Highlights</h2>
+        <video width="100%" height="auto" controls>
+            <source src="project_demo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- Tutorials & Talks Section -->
+    <section class="container my-4 bg-warning text-dark p-3 rounded" id="tutorials-talks">
+        <h2>Tutorials & Talks</h2>
+        <iframe width="100%" height="315" src="https://wwww.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"></iframe>
+    </section>
+
+    <!-- Contact Form Section -->
+    <aside class="container my-4 bg-primary text-white p-3 rounded" id="contact-me">
+        <h1 class="h4">Contact Me</h1>
+        <form action="/submit" method="post" class="p-3 rounded needs-validation">
+            <fieldset>
+                <legend class="h6"> Contact Information</legend>
+
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" name="full-name" id="full-name" placeholder="Enter your full name" required>
+                    <label for="full-name">Full Name</label>
+                    <div class="valid-feedback">Looks good!</div>
+                    <div class="invalidd-feedback">Please enter your full name.</div>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email" required>
+                    <label for="email">Email</label>
+                    <div class="valid-feedback">Looks good!</div>
+                    <div class="invalidd-feedback">Please enter your email address.</div>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="Enter your phone number" pattern="[0-9]{10}" required>
+                    <label for="phone">Phone Number</label>
+                    <div class="valid-feedback">Looks good!</div>
+                    <div class="invalidd-feedback">Please enter your phone number.</div>
+                </div>
+            </fieldset>
+
+            <div class="form-floating mb-3">
+                <textarea name="message" id="message" rows="6" placeholder="Your message here" required></textarea>
+                <label for="message">Message</label>
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalidd-feedback">Please enter your phone number.</div>
+            </div>
+
+            <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
+    </aside>
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+    </script>
+
+    <!-- Footer Section -->
+    <footer class="container-fluid py-3 mt-5 text-center bg-dark">
+        <p class="text-muted">&copy; 2024 Kyle Jones. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
